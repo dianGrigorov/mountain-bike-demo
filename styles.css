@@ -32,14 +32,14 @@ body {
 .header__logo-box img {
 
     position: absolute;
-    top: 50px;
+    top: 60px;
     left: 50px;
     animation: moveFromTop 1.5s;
 }
 
 .header__logo {
-    height: 65px;
-    rotate: 10deg;
+    height: 85px;
+    rotate: -20deg;
 
 }
 
