@@ -187,7 +187,7 @@ body {
     }
 }
 .btn--animated {
-    animation: moveFromBottom 1.5s .7s;
+    animation: moveFromBottom 1.5s 1.5s;
   
     animation-fill-mode: backwards;
 
