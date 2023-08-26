@@ -34,7 +34,7 @@ body {
     position: absolute;
     top: 60px;
     left: 50px;
-    animation: moveFromTop 1.5s;
+    animation: moveFromTop 1s;
 }
 
 .header__logo {
@@ -67,7 +67,7 @@ body {
     letter-spacing: 30px;
 
     animation-name: moveInLeft;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-timing-function: ease-out;
 }
 
@@ -77,7 +77,7 @@ body {
     font-weight: 400;
     letter-spacing: 15px;
 
-    animation: moveInRight 1.5s ease-in;
+    animation: moveInRight 1s ease-in;
 }
 
 @keyframes moveInLeft {
@@ -188,7 +188,7 @@ body {
     }
 }
 .btn--animated {
-    animation: moveFromBottom 1.5s 1.5s;
+    animation: moveFromBottom 1s 1s;
   
     animation-fill-mode: backwards;
 
