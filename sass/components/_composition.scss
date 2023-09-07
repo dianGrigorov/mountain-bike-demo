@@ -33,6 +33,6 @@
     }
 
     &:hover &__photo:not(:hover){
-        transform: scale(.95) rotate(-10deg);
+        transform: scale(.95);
     }
 }

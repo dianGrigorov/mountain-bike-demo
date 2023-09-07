@@ -198,11 +198,11 @@ body {
       z-index: 1;
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.6); }
   .composition:hover .composition__photo:not(:hover) {
-    transform: scale(0.95) rotate(-10deg); }
+    transform: scale(0.95); }
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to bottom left, rgba(2, 102, 168, 0.6), rgba(0, 74, 124, 0.8)), url(../img/hero.jpg);
+  background-image: linear-gradient(to left, rgba(0, 74, 124, 0.6), rgba(2, 102, 168, 0.6)), url(../img/hero.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -213,8 +213,7 @@ body {
     left: 50px;
     animation: moveFromTop 1s; }
   .header__logo {
-    height: 85px;
-    rotate: -20deg; }
+    height: 120px; }
   .header__text-box {
     position: absolute;
     top: 40%;
