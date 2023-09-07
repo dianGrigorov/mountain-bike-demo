@@ -14,7 +14,7 @@ body {
   background-color: #eee; }
 
 .header {
-  height: 90vh;
+  height: 95vh;
   background-image: linear-gradient(to bottom left, rgba(0, 86, 145, 0.6), rgba(0, 74, 124, 0.8)), url(../img/hero.jpg);
   background-size: cover;
   background-position: top;
