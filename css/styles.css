@@ -86,7 +86,7 @@ body {
   letter-spacing: 2px;
   transition: all .2s; }
   .heading-secondary:hover {
-    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    transform: skewY(-6deg) skewX(-15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 1rem rgba(0, 0, 0, 0.4); }
 
 .heading-tertiary {
@@ -176,10 +176,10 @@ body {
 .composition {
   position: relative; }
   .composition__photo {
-    width: 55%;
+    width: 60%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
     border: 2px solid #0266a8;
-    border-radius: 1rem;
+    border-radius: 2rem;
     position: absolute;
     transition: all .5s;
     outline-offset: 2rem; }
