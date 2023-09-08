@@ -5,9 +5,9 @@
     text-align: center;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
-
-    &__text {}
-
+    transition: .3s;
+    
+    
     &__icon {
         font-size: 6rem;
         margin-bottom: .5rem;
@@ -16,5 +16,8 @@
         -webkit-background-clip: text;
         color: transparent;
     }
-
+   &:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+   } 
+   
 }

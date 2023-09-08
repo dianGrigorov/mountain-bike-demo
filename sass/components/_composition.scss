@@ -5,7 +5,7 @@
         width: 60%;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
         border: 2px solid $color-primary;
-        border-radius: 2rem;
+        
         position: absolute;
         transition: all .5s;
         outline-offset: 2rem;
@@ -25,7 +25,7 @@
             top: 12rem;
         }
         &:hover {
-            outline: 1.5rem solid $color-primary;
+            outline: .5rem solid $color-primary;
             transform: scale(1.2);
             z-index: 1;
             box-shadow: 0 2.5rem 4rem rgba($color-black, .6);
